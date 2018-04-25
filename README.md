@@ -25,4 +25,4 @@ sudo ./aker-control-center-install.sh
 ```
 
 
-Qualquer duvida por favor abra uma issue.
+Qualquer duvida, por favor, abra uma issue.
