@@ -9,20 +9,20 @@ defineColors() {
 }
 
 downloadAker() {
-    wget -q --show-progress  http://download.aker.com.br/prod/current/interface%20grafica/linux/acc32/akercontrolcenter-2.0.32-xx.tar.gz;
+    wget -q --show-progress  http://download.aker.com.br/prod/current/interface%20grafica/linux/acc34/akercontrolcenter-2.0.34-xx.tar.gz;
 }
 
 extractAker() {
     mkdir akercontrolcenter
-    tar -xvzf akercontrolcenter-2.0.32-xx.tar.gz -C akercontrolcenter/ >/dev/null
+    tar -xvzf akercontrolcenter-2.0.34-xx.tar.gz -C akercontrolcenter/ >/dev/null
 }
 
 installAkerControlCenter() {
-    sudo chmod +x akercontrolcenter/AkerControlCenter-2.0.32-xx-linux-005.bin
-    sudo chmod +x akercontrolcenter/AkerControlCenter-2.0.32-xx-linux-AkerFirewall_6.8.7-002.bin 
+    sudo chmod +x akercontrolcenter/AkerControlCenter-2.0.34-xx-linux-002.bin
+    sudo chmod +x akercontrolcenter/AkerControlCenter-2.0.34-xx-linux-AkerFirewall_6.8.9-002.bin 
 
-    sudo ./akercontrolcenter/AkerControlCenter-2.0.32-xx-linux-005.bin
-    sudo ./akercontrolcenter/AkerControlCenter-2.0.32-xx-linux-AkerFirewall_6.8.7-002.bin 
+    sudo ./akercontrolcenter/AkerControlCenter-2.0.34-xx-linux-002.bin
+    sudo ./akercontrolcenter/AkerControlCenter-2.0.34-xx-linux-AkerFirewall_6.8.9-002.bin 
 }
 
 installDependencies() {
