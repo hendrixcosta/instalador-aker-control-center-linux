@@ -7,6 +7,7 @@ Testado nas plataformas Debian.
 | Versão ACC    | Tag           |
 | ------------- |:-------------:|
 | 2.0.32        | 1.0           |
+| 2.0.34        | 2.0           |
 
 
 # Instalação
